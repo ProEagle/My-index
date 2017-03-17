@@ -3,100 +3,94 @@
 
 <head>
     <title>我的第一个html页面</title>
-    <link href="css/0328_1.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
 	<script src="js/index.js"></script>
 </head>
 <!--以上为HTML的头部-->
 
 <body>
-        <header id="head">
-            <h1>我的主页</h1>
-        </header>
-                       
-        <div id="search-box">
-        
-          <div id="search-icon">
-                <form onsubmit="return baiduWithHttps(this)" action="http://www.baidu.com/baidu" target="_blank">
-                <input name="tn" type="hidden" value="SE_zzsearchcode_shhzc78w">
-                <a href="https://www.baidu.com/" target="_blank">
-                    <img src="https://www.baidu.com/img/baidu_jgylogo3.gif" alt="Baidu" align="bottom" border="0">
-                </a>
-                </form>
-        	</div>
-            
-            <form onsubmit="return baiduWithHttps(this)" action="http://www.baidu.com/baidu" target="_blank">
-              <div id="word-box">
-                  <input name="word" cols="30"  onFocus="checkHttps" >
-                </div>
-                
-              <div id="search-button">
-              	<input type="submit" value="搜索一下">
-              </div>
-        	</form>
-        </div>
-
-        <div id="sites">
-            <!--<p>我常用的网站</p>-->
-            <div id="link">
-                <a href="http://weibo.com/" target="_blank">新浪微博</a>
-            </div>
-            <div id="link">
-                <a href="https://www.baidu.com/" target="_blank">百度</a>
-            </div>
-            <div id="link">
-                <a href="http://www.acfun.tv/" target="_blank">ACFUN</a>
-            </div>
-            <div id="link">
-                <a href="https://channel9.msdn.com/" target="_blank">Channel9</a>
-            </div>
-            <div id="link">
-                <a href="http://www.csdn.net/" target="_blank">MSDN</a>
-            </div>
-			<div id="link">
-				<a href="http://www.bilibili.com/" target="_blank">哔哩哔哩</a>
-			</div>
-			<div id="link">
-				<a href="http://so.chongbuluo.com/" target="_blank">虫部落</a>
-			</div>
-			<div id="link">
-				<a href="https://www.zhihu.com/" target="_blank">知乎</a>
-			</div>
-			<div id="link">
-				<a href="http://www.jobbole.com/" target="_blank">伯乐在线</a>
-			</div>
-			<div id="add_site">
-            	<span class="add_site">添加网址</span>
-            </div>
-        </div>
-        
-        <footer>
-        <p>更多内容请点这里！<a href="#"> 保证让您满意！</a></p>
-        </footer>
-        <div id="WinBack" class="WinBack">背景模板</div>
-        <div id="WinShow" class="WinShow">
-			<div>添加网址</div>
-                <div>
-                    <div class="popup-site-self-sug js_psite-sug">
-                        <label for="js_sug-name">网站名称：</label>
-                        <input class="js_sug-name name" id="js_sug-name" autocomplete="off">
-                        <label for="js_sug-url">网址：</label>
-                        <input class="js_sug-url url" id="js_sug-url" autocomplete="off">
-                        <a class="js_psite-add add">添加</a><a class="js_psite-modify add" style="display: none;">修改</a>
-                        <label class="placeholder placeholder-name" id="js_placeholder-name" for="js_sug-name">如：百度</label>
-                        <label class="placeholder placeholder-url" id="js_placeholder-url" for="js_sug-url">如：www.baidu.com</label>
-                        <div class="suggest suggest-site"><div class="header-hook"></div>
-                        <ul class="list-hook"></ul>
-                        <div class="footer-hook"></div>
-                    </div>
-                    <div class="suggest suggest-site">
-                        <div class="header-hook"></div>
-                        <ul class="list-hook"></ul>
-                        <div class="footer-hook"></div>
-                    </div>
-                </div>
-			<input id="firm" type="button" value="确定"/>
-            </div>
+	<header id="head">
+		<h1>哪儿凉快就去哪儿乘凉！</h1>
+	</header>
+				   
+	<div id="search-box">
+	
+	  <div id="search-icon">
+			<a href="https://www.baidu.com/" target="_blank">
+				<img src="imgs/Baidu.png" alt="Baidu" align="bottom" border="0">
+			</a>
 		</div>
+		
+		<form onsubmit="return baiduWithHttps(this)" action="http://www.baidu.com/baidu" target="_blank">
+		  <div id="word-box">
+			  <input name="word" cols="30"  onFocus="checkHttps" >
+			</div>
+			
+		  <div id="search-button">
+			<input type="submit" value="搜索一下">
+		  </div>
+		</form>
+	</div>
+
+	<div id="sites">
+		<!--<p>我常用的网站</p>-->
+		<div id="link">
+			<a href="http://weibo.com/" target="_blank">新浪微博</a>
+		</div>
+		<div id="link">
+			<a href="https://www.baidu.com/" target="_blank">百度</a>
+		</div>
+		<div id="link">
+			<a href="http://www.acfun.tv/" target="_blank">ACFUN</a>
+		</div>
+		<div id="link">
+			<a href="http://cn.bing.com/dict/" target="_blank">必应词典</a>
+		</div>
+		<div id="link">
+			<a href="http://www.csdn.net/" target="_blank">MSDN</a>
+		</div>
+		<div id="link">
+			<a href="http://www.bilibili.com/" target="_blank">哔哩哔哩</a>
+		</div>
+		<div id="link">
+			<a href="http://search.chongbuluo.org/" target="_blank">虫部落</a>
+		</div>
+		<div id="link">
+			<a href="https://www.zhihu.com/" target="_blank">知乎</a>
+		</div>
+		<div id="link">
+			<a href="http://www.jobbole.com/" target="_blank">伯乐在线</a>
+		</div>
+		<div id="link">
+			<a href="https://www.shiyanlou.com/" target="_blank">实验楼</a>
+		</div>
+		<div id="add_site">
+			<span class="add_site">添加网址</span>
+		</div>
+	</div>
+	
+	<div id="WinBack" class="WinBack"></div>
+	<div id="WinShow" class="WinShow">
+		<div>添加网址</div>
+			<div>
+				<div>
+					<label >网站名称：</label>
+					<input  id="tar_name" type="text" autocomplete="off">
+					<label >网址：</label>
+					<input  id="tar_url" type="text" autocomplete="off">
+					<label>如：百度</label>
+					<label>如：www.baidu.com</label>
+				</div>
+			</div>
+			<div>
+				<label id="tips">Tips:两项不能为空哦！</label>
+			</div>
+			<div>
+				<input id="firm" type="button" value="确定"/>
+				<input id="cancel" type="button" value="取消"/>
+			</div>
+		</div>
+	</div>
 </body>
 
 </html>
